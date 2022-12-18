@@ -96,7 +96,7 @@
         div.setAttribute("id", "loading");
         document.getElementById("myDIV").style.display = 'block';
         document.getElementById("myDIV").appendChild(div);
-        fetch('https://api-for-emails.herokuapp.com/api/send-mail', {
+        fetch('https://www.api-email.dopedigital.in/api/send-mail', {
             method: "post",
             body: JSON.stringify({
                 code: code.value,
